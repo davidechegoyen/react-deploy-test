@@ -1,0 +1,28 @@
+.merch{
+    background: white;    
+    width: 100%;   
+    align-items: center;
+    justify-content: center;   
+    margin-top: -97px;
+    color: black;
+}
+
+.merch h1{
+    text-align: center;
+}
+.merch-content{
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.nav-space{
+    background-color: black;
+    height: 100px;
+    margin-bottom: 2rem;
+}
+
+@media (min-width:500px){
+    .nav-space{
+        margin-bottom: 7rem;
+    }
+}

@@ -1,0 +1,37 @@
+.footer{
+    background-color: rgba(128, 128, 128, 0.5);
+    color: black;
+    margin-top: 7rem;
+}
+.footer-content-box{        
+    display: flex;  
+    flex-wrap: wrap;
+    padding: 1rem;    
+    justify-content: left;
+}
+.footer-content{          
+    display: flex;
+    flex-direction: column;    
+    padding: 1rem;        
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    cursor: pointer;
+}
+.end{
+    text-align: center;
+}
+.footer p{
+    font-size: 15px;
+}
+
+@media (min-width:500px){
+    .footer-content-box{      
+        padding: 4rem;    
+        justify-content: center;
+    }
+}

@@ -1,0 +1,122 @@
+ul{
+    list-style: none;
+}
+
+.navigation-bar{    
+    background-color: transparent;       
+    z-index: 10;    
+}
+
+.nav-bar-content{    
+    padding: 1.5rem ; 
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;    
+}
+.nav-icon-img{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight:bold;
+    text-shadow:0px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.nav-links {
+  text-decoration: none;
+  color: white;  
+  font-size: 20px;
+  font-weight: bold;
+  transition: .5s;  
+  flex-grow: 1;
+  padding-top: 2rem;
+  text-shadow:0px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.shoppingcart{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  color: white;  
+  font-size: 15px;
+  font-weight: bold;
+  background-color: red;
+  border-radius: 50%;
+}
+.nav-small{
+    margin: 0 1rem;
+}
+.nav-links:hover {
+  color: #ffd4d0;    
+}
+.hamburger-yes{       
+    display: flex;
+    flex-direction: column;    
+    position: absolute;    
+    top: 0;
+    width: 100%;   
+    height: 100vh;
+    background-color: black;
+    text-align: center;    
+    z-index: 20;  
+    flex-grow: 1;  
+}
+
+.hamburger-yes:first-child{
+    text-align: left;
+}
+
+.hamburger-no{
+    display: none;
+}
+.hamburger-icon{
+    display: flex;   
+}
+.hamburger-icon button {
+  background: none;
+  color: white;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  transition: 0.5s;  
+  text-shadow:0px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.hamburger-icon button:hover{
+    color: #ffd4d0;
+}
+.nav-icon-img{
+   font-size: 20px;
+}
+
+@media (min-width:500px){
+    .nav-icon-img{
+   font-size: 30px;
+}
+    .nav-links {        
+        font-size: 30px;                             
+    }    
+}
+
+@media (min-width:770px){
+    
+    .nav-links {        
+        font-size: 20px;   
+        padding: 0 2rem;        
+        text-align: center;        
+    }    
+
+    .nav-bar-content{
+        justify-content: space-around;
+    }
+
+}
+
+@media (min-width:850px){
+    
+    .nav-links {        
+        font-size: 25px;                  
+    }       
+
+}

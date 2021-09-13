@@ -1,0 +1,42 @@
+.btn {
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  padding: 8px 20px;
+  margin: 2rem 0;
+  border-radius: 5px;  
+  font-weight: bold;
+}
+
+.btn--basic {
+  background: rgba(0, 0, 0, 0.8);
+  color: whitesmoke;
+  border: 1px solid white;
+}
+
+.btn--outline {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  transition: all 0.3s ease-out;
+}
+
+.btn--medium {
+  padding: 8px 20px;
+  font-size: 15px;
+}
+
+.btn--large {
+  padding: 12px 26px;
+  font-size: 30px;
+}
+
+.btn--medium:hover,
+.btn--large:hover {
+  background:rgb(255, 235, 233);
+  border-color: rgb(255, 235, 233);
+  color: black;
+  transition: all 0.3s ease-out;
+}
