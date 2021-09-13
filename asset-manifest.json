@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-deploy-test/static/css/main.41b14642.chunk.css",
+    "main.js": "/react-deploy-test/static/js/main.22b49406.chunk.js",
+    "main.js.map": "/react-deploy-test/static/js/main.22b49406.chunk.js.map",
+    "runtime-main.js": "/react-deploy-test/static/js/runtime-main.0b32ba8f.js",
+    "runtime-main.js.map": "/react-deploy-test/static/js/runtime-main.0b32ba8f.js.map",
+    "static/js/2.4899c813.chunk.js": "/react-deploy-test/static/js/2.4899c813.chunk.js",
+    "static/js/2.4899c813.chunk.js.map": "/react-deploy-test/static/js/2.4899c813.chunk.js.map",
+    "index.html": "/react-deploy-test/index.html",
+    "static/css/main.41b14642.chunk.css.map": "/react-deploy-test/static/css/main.41b14642.chunk.css.map",
+    "static/js/2.4899c813.chunk.js.LICENSE.txt": "/react-deploy-test/static/js/2.4899c813.chunk.js.LICENSE.txt",
+    "static/media/coolpic1.e3122abd.jpg": "/react-deploy-test/static/media/coolpic1.e3122abd.jpg",
+    "static/media/coolpic2.dcd731a0.jpg": "/react-deploy-test/static/media/coolpic2.dcd731a0.jpg",
+    "static/media/coolpic3.4efdffb6.jpg": "/react-deploy-test/static/media/coolpic3.4efdffb6.jpg",
+    "static/media/shirt1.2cf8fae4.png": "/react-deploy-test/static/media/shirt1.2cf8fae4.png",
+    "static/media/shirt2.68c66aaa.png": "/react-deploy-test/static/media/shirt2.68c66aaa.png",
+    "static/media/Maincover.css": "/react-deploy-test/static/media/street-bg1.1f46e630.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0b32ba8f.js",
+    "static/js/2.4899c813.chunk.js",
+    "static/css/main.41b14642.chunk.css",
+    "static/js/main.22b49406.chunk.js"
+  ]
+}
