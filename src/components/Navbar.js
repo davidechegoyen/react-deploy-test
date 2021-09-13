@@ -20,7 +20,7 @@ const Navbar = ({shoppingCart}) => {
         <div className="navigation-bar">
             <div className="nav-bar-content">
                 <div className="nav-icon">
-                   <Link className="nav-icon-img" to="/">Daveeys <i className="fas fa-cannabis" /></Link> 
+                   <Link className="nav-icon-img" to="/react-deploy-test/">Daveeys <i className="fas fa-cannabis" /></Link> 
                 </div>
                
                 <div className="hamburger-icon">   
@@ -33,7 +33,7 @@ const Navbar = ({shoppingCart}) => {
                 <Link className="nav-links" to='/merch' onClick={clickOnHamburger}>Merch</Link>                         
                 <Link className="nav-links" to='/shopping_cart' onClick={clickOnHamburger}>Shopping Cart                 
                 </Link>                              
-                <Link className="nav-links" to='/'onClick={clickOnHamburger}>Home</Link> 
+                <Link className="nav-links" to='/react-deploy-test/'onClick={clickOnHamburger}>Home</Link> 
             </div>      
         </div>
         )
@@ -42,7 +42,7 @@ const Navbar = ({shoppingCart}) => {
             <div className="navigation-bar">
                 <div className="nav-bar-content">
                     <div className="nav-icon">
-                        <Link className="nav-icon-img" to="/">Daveeys <i className="fas fa-cannabis" /></Link> 
+                        <Link className="nav-icon-img" to="/react-deploy-test/">Daveeys <i className="fas fa-cannabis" /></Link> 
                     </div>
                     <div >
                        {/*  <Link className="nav-links" to='/about' onClick={clickOnHamburger}>About</Link>  */}

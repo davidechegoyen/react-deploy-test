@@ -145,7 +145,7 @@ console.log(testData)
       <div className="App">
         <Navbar shoppingCart={shoppingCart}/>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/react-deploy-test/">
             <Maincover />
             <Featured />            
           </Route>
